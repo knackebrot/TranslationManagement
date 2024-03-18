@@ -41,3 +41,9 @@ Our tools of choice are React (CRA) + Typescript but use what you prefer
 Clone/fork to your repo and deliver as a link to your repo or share the `git-archive`. 
 Commit to master, follow usual git culture. 
 Please include a note regarding how to run.
+
+# TODO
+- Carve out most of the logic from controllers and put it into services
+- Have separate models for entities and responses
+- Unit tests
+- Frontend

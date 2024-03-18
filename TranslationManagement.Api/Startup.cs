@@ -28,7 +28,7 @@ namespace TranslationManagement.Api
                 options.UseSqlite("Data Source=TranslationAppDatabase.db"));
         }
 
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app)
         {
             app.UseSwagger();
             app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "TranslationManagement.Api v1"));
@@ -39,6 +39,8 @@ namespace TranslationManagement.Api
             {
                 endpoints.MapControllers();
             });
+
+            
         }
     }
 }

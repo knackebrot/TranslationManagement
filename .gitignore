@@ -16,3 +16,4 @@ wwwroot_node
 *.nupkg
 .DS_Store
 .idea
+TranslationManagement.Api/TranslationAppDatabase.db*

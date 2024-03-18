@@ -20,6 +20,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\External.ThirdParty.Services\External.ThirdParty.Services.csproj" />
+    <ProjectReference Include="..\TranslationManagement.Domain\TranslationManagement.Domain.csproj" />
+    <ProjectReference Include="..\TranslationManagement.Infrastructure\TranslationManagement.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
